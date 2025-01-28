@@ -20,7 +20,7 @@ using Telegram.Bot.Types.ReplyMarkups;
 
 class Program
 {
-    private static readonly string botToken = "7544433601:AAFcQ5PJORNWv3iFbYvuUCphKWleDRuB7PI";
+    private static readonly string botToken = "";
     private static TelegramBotClient botClient;
     private static Dictionary<long, Meme> userMemes = new Dictionary<long, Meme>();
     private static Dictionary<long, bool> userAccessStatus = new Dictionary<long, bool>();
